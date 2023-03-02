@@ -1,0 +1,233 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device width, initial scale=1.0" />
+    <title>Personal Portfoloio</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/129ace9e18.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png.png" class="logo" />
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#recomendation">Recommendation</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Fashion Designer</p>
+                <h1>Hi, I'm <span>Pearl</span><br>From Nigeria</h1>
+            </div>
+        </div>
+    </div>
+<!--about-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/img1.png.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non iure eaque aut dicta exercitatinem unde vel,
+                    suscipit voluptate hic fugiat? Et officiis quidem ducimus natus sequi voluptatem voluptates rem voluptatum!</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('projects')">Projects</p>
+                        <p class="tab-links" onclick="opentab('recommendation')">Recommendation<p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Fashion</span><br>Designing</li>
+                            <li><span>Art</span><br>Pattern drafting</li>
+                            <li><span>Artiste</span><br>Sketches</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="projects">
+                        <ul>
+                            <li><span>2019 - current</span><br>Student</li>
+                            <li><span>2020 - 2021</span><br>Pattern drafting training</li>
+                            <li><span>2018 - 2019</span><br>Practiced sketching</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="recommendation">
+                        <ul>
+                            <li><span>2022 - current</span><br>Caleb University</li>
+                            <li><span>2019 - 2022</span><br>Redeemer's fashion house</li>
+                            <li><span>2018 - 2019</span><br>Pricilia school of ats</li>
+                         </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--skills-->
+    <div id="skills">
+        <div class="container">
+            <h1 class="sub-title">My Skills</h1>
+            <div class="skills-list">
+                <div>
+                    <i class="fa-light fa-lips"></i>
+                    <h2>Sketching</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non iure eaque aut dicta exercitatinem unde vel,
+                    suscipit voluptate hic fugiat? Et officiis quidem ducimus natus sequi voluptatem voluptates rem voluptatum!</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-regular fa-clothes-hanger"></i>
+                    <h2>Fashion Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non iure eaque aut dicta exercitatinem unde vel,
+                    suscipit voluptate hic fugiat? Et officiis quidem ducimus natus sequi voluptatem voluptates rem voluptatum!</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-scarf"></i>
+                    <h2>Pattern drafting</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non iure eaque aut dicta exercitatinem unde vel,
+                    suscipit voluptate hic fugiat? Et officiis quidem ducimus natus sequi voluptatem voluptates rem voluptatum!</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--projects-->
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/img2.png.jpg">
+                    <div class="layer">
+                        <h3>Social Media</h3>
+                        <p>This aspect connects you to the talented people around the world of Fashion.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/img3.png.jpg">
+                    <div class="layer">
+                        <h3>Fashion House</h3>
+                        <p>This aspect connects you to the talented people around the world of Fashion.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/img4.png.jpg">
+                    <div class="layer">
+                        <h3>Art Gallery</h3>
+                        <p>This aspect connects you to the talented people around the world of Fashion.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+<!--Recommendation-->
+<div id="recomendation">
+    <div class="container">
+        <h1 class="sub-title">Recommendations</h1>
+        <div class="recomendation-list">
+            <div>
+                <h2>Juliana</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non iure eaque aut dicta exercitatinem unde vel,
+                suscipit voluptate hic fugiat? Et officiis quidem ducimus natus sequi voluptatem voluptates rem voluptatum!</p>
+            </div>
+            <div>
+                <h2>David</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non iure eaque aut dicta exercitatinem unde vel,
+                suscipit voluptate hic fugiat? Et officiis quidem ducimus natus sequi voluptatem voluptates rem voluptatum!</p>
+            </div>
+            <div>
+                <h2>The Bella Twins</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non iure eaque aut dicta exercitatinem unde vel,
+                suscipit voluptate hic fugiat? Et officiis quidem ducimus natus sequi voluptatem voluptates rem voluptatum!</p>
+            </div>
+            <div>
+                <h2>The Usos</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non iure eaque aut dicta exercitatinem unde vel,
+                suscipit voluptate hic fugiat? Et officiis quidem ducimus natus sequi voluptatem voluptates rem voluptatum!</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--contact-->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Leave your recommendation </h1>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your name" required>
+                    <textarea name="Message" rows="6" placeholder="Your recomendation"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg">Hello!</span>
+            </div>
+        </div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" width="63px">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+        
+    </svg>
+    <div class="copyright">
+        <p>Copyright &copy; Pearl. Made with <i class="fas fa-heart"></i> sby Pearl. </p>
+    </div>
+</div>
+
+
+
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        
+
+        function opentab(tabname) {
+            for(tablink of tablinks){
+                tablink.classlist.remove("active-link");
+            }
+            for(tabcontent of tablcontents){
+                tabcontents.classlist.remove("active-tab");
+            }
+            event.currentTarget.classlist.add("actiive-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+    </script>
+
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzNKbTkFhrZtVyxEzqrJ0UcFkEVoOSSdlXmlXAX04X3pOycFIfw90Gau0tfl_ZKaJ-T/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML="Thanks for leaving a recomendation"
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+</html> 
